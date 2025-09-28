@@ -104,3 +104,25 @@ python app.py
 # Access Web App
 # http://127.0.0.1:5000
 ```
+
+# 📂 Project Structure
+```
+ai-career-chatbot/
+│── app.py                # Main Flask app
+│── models/               # NLP models (BART, DialoGPT, Sentence Transformers)
+│── templates/            # HTML templates
+│── static/               # CSS, JS files
+│── database.db           # SQLite database
+│── requirements.txt      # Dependencies
+│── README.md             # Project documentation
+```
+
+# 🤝 Contributing
+Contributions are welcome!
+Please fork the repo and create a pull request with improvements.
+
+---
+
+# 📜 License
+This project is licensed under the MIT License.
+
