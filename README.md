@@ -92,7 +92,7 @@ CREATE TABLE escalations (
 # Getting started
 ```
 ### # Clone Repository
-git clone https://github.com/your-username/ai-career-chatbot.git
+git clone https://github.com/junnie-creations/AI-ML-Bot-making.git
 cd ai-career-chatbot
 
 # Install Dependencies
