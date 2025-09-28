@@ -68,3 +68,21 @@ POST   /chat       # Process user queries and return chatbot response
 POST   /feedback   # Store feedback (thumbs up/down)
 GET    /analytics  # Retrieve performance metrics
 GET    /           # Render chatbot interface
+
+# 🗄️ Database Structure
+
+```sql
+-- Feedback Table
+CREATE TABLE feedback (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_query TEXT NOT NULL,
+    bot_response TEXT NOT NULL,
+    rating TEXT CHECK(rating IN ('up', 'down'))
+);
+
+-- Escalations Table
+CREATE TABLE escalations (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_query TEXT NOT NULL,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
