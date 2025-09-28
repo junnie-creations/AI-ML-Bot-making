@@ -68,6 +68,7 @@ POST   /chat       # Process user queries and return chatbot response
 POST   /feedback   # Store feedback (thumbs up/down)
 GET    /analytics  # Retrieve performance metrics
 GET    /           # Render chatbot interface
+```
 
 # 🗄️ Database Structure
 
@@ -86,3 +87,20 @@ CREATE TABLE escalations (
     user_query TEXT NOT NULL,
     timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
 );
+```
+
+# Getting started
+```
+### # Clone Repository
+git clone https://github.com/your-username/ai-career-chatbot.git
+cd ai-career-chatbot
+
+# Install Dependencies
+pip install -r requirements.txt
+
+# Run Flask App
+python app.py
+
+# Access Web App
+# http://127.0.0.1:5000
+```
