@@ -108,13 +108,12 @@ python app.py
 # 📂 Project Structure
 ```
 ai-career-chatbot/
-│── app.py                # Main Flask app
-│── models/               # NLP models (BART, DialoGPT, Sentence Transformers)
-│── templates/            # HTML templates
-│── static/               # CSS, JS files
-│── database.db           # SQLite database
-│── requirements.txt      # Dependencies
-│── README.md             # Project documentation
+│── app.py                 # Main Flask app
+│── templates/index.html   # HTML templates
+│── static/                # CSS, JS files (if you need to make it dynamic)
+│── database.db            # SQLite database (will not be at initial, but will come after once, you run the program)
+│── requirements.txt       # Dependencies (requirements are specified in the video)
+│── README.md              # Project documentation
 ```
 
 # 🤝 Contributing
